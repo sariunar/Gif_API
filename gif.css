@@ -60,6 +60,9 @@ h6 {
     margin: 0;
 }
 @media screen and (max-width:768px) {
+    html{
+        height: 100vh;
+    }
     .container{
         height: 100%;
     }
