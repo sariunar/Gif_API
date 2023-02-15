@@ -14,9 +14,11 @@
 <body>
     <div class="container">
         <h1 class="title">Поиск гифок</h1>
-        <label for="" class="label">Укажите количество: <input type="text" id="limit" name="limit" class="input"></label>
-        <input type="text" id="search" name="search" class="input">
-        <button id="btn">Искать</button>
+        <div class="container__search">
+            <label for="" class="label">Укажите количество: <input type="number" id="limit" name="limit" class="input"></label>
+            <input type="text" id="search" name="search" class="input">
+            <button id="btn">Искать</button>
+        </div>
         <div id="results"></div>
     </div>
     <script src="gif.js"></script>
